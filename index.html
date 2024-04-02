@@ -14,7 +14,7 @@
 <body>
 
     <!-- NavBar 1 -->
-    <nav class="navbar navbar-expand-md py-3">
+    <nav class="navbar navbar-expand-md py-3" id="navbar-one">
         <div class="container text-light d-flex flex-column flex-md-row">
             <a href="#" class="navbar-brand text-light m-auto m-sm-0">ExacTime</a>
             <form class="d-flex align-items-center mt-3 mt-md-0 mb-5 mb-md-0" id="form">
@@ -22,7 +22,7 @@
                 <input type="text" name="search" id="search" class="form-control" placeholder="Busque o seu relógio...">
                 <button class="btn btn-outline-danger" type="button">Pesquisar</button>
             </form>
-            <ul class="navbar-nav d-flex align-items-center flex-row gap-4">
+            <ul class="navbar-nav d-flex align-items-center flex-row gap-4" id="navbar-one-ul">
                 <li class="nav-item">
                     <i class="bi bi-person d-block"></i>
                 </li>
@@ -41,14 +41,14 @@
     </nav>
 
     <!-- NavBar 2 -->
-    <nav class="navbar navbar-expand-sm bg-body-tertiary bg-bege-dark">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary bg-bege" id="navbar-two">
         <div class="container">
             <button class="navbar-toggler m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse py-2 d-sm-flex justify-content-sm-center" id="navbarNav">
-                <ul class="navbar-nav text-center ">
+                <ul class="navbar-nav text-center">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
@@ -69,6 +69,7 @@
         </div>
     </nav>
 
+    <!-- Carousel -->
     <div class="container">
         <div class="carousel slide" id="carouselSite">
             <div class="carousel-inner">
@@ -108,19 +109,20 @@
     </div>
 
 
-    <div class="container">
+    <!-- Colection-container -->
+    <div class="container" id="colection-container">
         <div class="row justify-content-between my-4">
-            <div class="col-12 text-light d-flex flex-column justify-content-between bg-dark colection">
+            <div class="col-12 text-light d-flex flex-column justify-content-between bg-dark colection-item">
                 <h2>NOVA COLEÇÃO</h2>
                 <a href="#" class="text-light">Compre agora</a>
                 <img src="./images/relogio1.png" alt="">
             </div>
-            <div class="col-12 text-light d-flex flex-column justify-content-between bg-bege-dark colection">
+            <div class="col-12 text-light d-flex flex-column justify-content-between bg-bege colection-item">
                 <h2>PROMOÇÕES</h2>
                 <a href="#" class="text-light">Compre agora</a>
                 <img src="./images/relogio2.png" alt="">
             </div>
-            <div class="col-12 text-dark d-flex flex-column justify-content-between bg-bege colection">
+            <div class="col-12 text-dark d-flex flex-column justify-content-between bg-white-light colection-item">
                 <h2>EDIÇÃO LIMITADA</h2>
                 <a href="#" class="text-dark">Compre agora</a>
                 <img src="./images/relogio3.png" alt="">
@@ -129,53 +131,55 @@
     </div>
 
 
+    <!-- Beast Sellers Container -->
     <div class="container">
-        <h2 class="text-bege-dark my-5">BEST SELLERS</h2>
+        <h2 class="text-bege my-5 text-center text-sm-start fs-1">BEST SELLERS</h2>
         <div class="row">
-            <div class="col-md-3 text-center">
+            <div class="col-md-3 text-center bs-item">
                 <img src="./images/relogio1.png" alt="">
                 <div class="text-light my-5">
                     <label>Relogio</label>
                     <h4 class="mt-2 mb-4">Nome do produto</h4>
-                    <label class="text-bege-dark fw-bold">R$177.63</label>
+                    <label class="text-bege fw-bold">R$177.63</label>
                 </div>
                 <button class="btn text-light">Comprar</button>
             </div>
-            <div class="col-md-3 text-center">
+            <div class="col-md-3 text-center bs-item">
                 <img src="./images/relogio3.png" alt="">
                 <div class="text-light my-5">
                     <label>Relogio</label>
                     <h4 class="mt-2 mb-4">Nome do produto</h4>
-                    <label class="text-bege-dark fw-bold">R$177.63</label>
+                    <label class="text-bege fw-bold">R$177.63</label>
                 </div>
                 <button class="btn text-light">Comprar</button>
             </div>
-            <div class="col-md-3 text-center">
+            <div class="col-md-3 text-center bs-item">
                 <img src="./images/relogio5.png" alt="">
                 <div class="text-light my-5">
                     <label>Relogio</label>
                     <h4 class="mt-2 mb-4">Nome do produto</h4>
-                    <label class="text-bege-dark fw-bold">R$177.63</label>
+                    <label class="text-bege fw-bold">R$177.63</label>
                 </div>
                 <button class="btn text-light">Comprar</button>
             </div>
-            <div class="col-md-3 text-center">
+            <div class="col-md-3 text-center bs-item">
                 <img src="./images/relogio6.png" alt="">
                 <div class="text-light my-5">
                     <label>Relogio</label>
                     <h4 class="mt-2 mb-4">Nome do produto</h4>
-                    <label class="text-bege-dark fw-bold">R$177.63</label>
+                    <label class="text-bege fw-bold">R$177.63</label>
                 </div>
                 <button class="btn text-light">Comprar</button>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid mt-5">
+    <!-- Emphasis-container -->
+    <div class="container-fluid mt-5" id="emphasis-container">
         <div class="row flex-column flex-md-row py-5 justify-content-center align-items-center">
-            <div class="col-12 col-md-8 text-center">
-                <label class="text-bege-dark fw-bold">DESCONTO DE ATÉ 75%</label>
-                <h2 class="text-light">RELÓGIO X</h2>
+            <div class="col-12 col-md-8 text-center" id="emphasis-item">
+                <label class="text-bege fw-bold">DESCONTO DE ATÉ 75%</label>
+                <h2 class="text-info">RELÓGIO X</h2>
                 <p class="text-light">Presenteie o seu amor com este relógio luxuoso</p>
                 <a href="#" class="btn text-light mt-5">Comprar agora</a>
             </div>
@@ -184,6 +188,81 @@
             </div>
         </div>
     </div>
+
+
+    <!-- News Container -->
+    <div class="container">
+        <h2 class="text-bege my-5 text-center text-sm-start fs-1">NOVIDADES</h2>
+        <div class="row">
+            <div
+                class="col-3 bg-dark text-light d-none d-sm-flex flex-column align-items-center justify-content-center">
+                <label>Os melhores</label>
+                <h5 class="h1 my-4">RELÓGIOS</h5>
+                <p class="text-bege">pelos melhores preços</p>
+            </div>
+            <div class="col-sm-3">
+                <div class="text-center bs-item">
+                    <img src="./images/relogio7.png" alt="">
+                    <div class="text-light my-5">
+                        <label>Relogio</label>
+                        <h4 class="mt-2 mb-4">Nome do produto</h4>
+                        <label class="text-bege fw-bold">R$177.63</label>
+                    </div>
+                    <button class="btn text-light">Comprar</button>
+                </div>
+                <div class="text-center bs-item">
+                    <img src="./images/relogio4.png" alt="">
+                    <div class="text-light my-5">
+                        <label>Relogio</label>
+                        <h4 class="mt-2 mb-4">Nome do produto</h4>
+                        <label class="text-bege fw-bold">R$177.63</label>
+                    </div>
+                    <button class="btn text-light">Comprar</button>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="text-center bs-item">
+                    <img src="./images/relogio6.png" alt="">
+                    <div class="text-light my-5">
+                        <label>Relogio</label>
+                        <h4 class="mt-2 mb-4">Nome do produto</h4>
+                        <label class="text-bege fw-bold">R$177.63</label>
+                    </div>
+                    <button class="btn text-light">Comprar</button>
+                </div>
+                <div class="text-center bs-item">
+                    <img src="./images/relogio3.png" alt="">
+                    <div class="text-light my-5">
+                        <label>Relogio</label>
+                        <h4 class="mt-2 mb-4">Nome do produto</h4>
+                        <label class="text-bege fw-bold">R$177.63</label>
+                    </div>
+                    <button class="btn text-light">Comprar</button>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="text-center bs-item">
+                    <img src="./images/relogio5.png" alt="">
+                    <div class="text-light my-5">
+                        <label>Relogio</label>
+                        <h4 class="mt-2 mb-4">Nome do produto</h4>
+                        <label class="text-bege fw-bold">R$177.63</label>
+                    </div>
+                    <button class="btn text-light">Comprar</button>
+                </div>
+                <div class="text-center bs-item">
+                    <img src="./images/relogio2.png" alt="">
+                    <div class="text-light my-5">
+                        <label>Relogio</label>
+                        <h4 class="mt-2 mb-4">Nome do produto</h4>
+                        <label class="text-bege fw-bold">R$177.63</label>
+                    </div>
+                    <button class="btn text-light">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
