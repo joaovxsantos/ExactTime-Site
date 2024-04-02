@@ -26,6 +26,7 @@
 }
 
 .container,
+.container-fluid,
 .row {
   --bs-gutter-x: 0px;
 }
@@ -178,11 +179,66 @@ body {
 
 /* Fim Emphasis container */
 
+/* Galery Row */
+#galery-content {
+  justify-content: space-between;
+  background: var(--black);
+}
 
+#galery-content div {
+  padding: 3px 2px;
+}
 
+#galery-content div img {
+  width: 100%;
+  height: 200px;
+  transition: all 100ms linear;
+}
 
+#galery-content div img:hover {
+  outline: 2px solid var(--bege);
+}
+
+/* Fim Galery Row */
+
+/* Contact Row */
+#contact-content div {
+  padding: 28px 0px;
+  text-align: center;
+}
+
+#contact-content .unstyled-list {
+  list-style: none !important;
+  padding: 0 !important;
+}
+
+#contact-content .unstyled-list li {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+#contact-content div:nth-of-type(1),
+#contact-content div:nth-of-type(2),
+#contact-content div:nth-of-type(3) {
+  border-bottom: 1px solid #ffffff4d;
+}
+#contact-content div:nth-of-type(1),
+#contact-content div:nth-of-type(2) {
+  border-right: 1px solid #ffffff4d;
+}
+
+#contact-content div #call {
+  font-size: 40px;
+}
 
 /* Media queries */
+
+@media screen and (max-width: 576px) {
+  #contact-content div {
+    border: none !important;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .carousel-item img {
     height: 50vh;
