@@ -171,7 +171,7 @@ body {
 /* Emphasis container */
 #emphasis-item h2 {
   max-width: none;
-  width: 140% !important;
+  width: 100% !important;
   font-size: 96px;
   position: relative;
   left: 50%;
@@ -348,4 +348,9 @@ footer #footer-text a {
   #contact-content div #call {
     font-size: 30px;
   }
+}
+
+
+.teste {
+  width: 100%  !important;
 }
