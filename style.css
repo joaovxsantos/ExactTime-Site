@@ -7,6 +7,7 @@
   --black: #000;
   --black-ligth: #252525;
   --gray: #808080;
+  --secondary-color: #626262;
 }
 
 .bg-white-light {
@@ -25,6 +26,10 @@
   color: var(--bege) !important;
 }
 
+.text-secondary-color {
+  color: var(--secondary-color) !important;
+}
+
 .container,
 .container-fluid,
 .row {
@@ -35,6 +40,7 @@
 
 body {
   background: var(--black-ligth);
+  overflow-x: hidden;
 }
 
 /* Primeira Navbar */
@@ -217,6 +223,11 @@ body {
   opacity: 0.6;
 }
 
+#contact-content #pages li {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
 #contact-content div:nth-of-type(1),
 #contact-content div:nth-of-type(2),
 #contact-content div:nth-of-type(3) {
@@ -227,8 +238,76 @@ body {
   border-right: 1px solid #ffffff4d;
 }
 
+#contact-content .quest {
+  max-width: 80%;
+  margin: auto;
+}
+
 #contact-content div #call {
   font-size: 40px;
+}
+
+/* Fim Contact Row */
+
+/* Footer */
+
+footer {
+  background: var(--black);
+}
+footer .news {
+  padding: 30px 0;
+}
+footer .news form {
+  border: 1px solid var(--gray);
+  padding: 6px 15px;
+  width: 600px;
+  max-width: 90vw;
+}
+
+footer .news label {
+  max-width: 80vw;
+}
+
+.news form .form-control {
+  border: none !important;
+  background: none;
+  box-shadow: none !important;
+  color: var(--white);
+}
+
+.news form .form-control::placeholder {
+  color: var(--white);
+}
+
+.news form .btn {
+  border: 1px solid var(--bege);
+  color: var(--white);
+}
+
+.news form .btn:hover {
+  background: var(--bege);
+}
+
+.news .social-medias i {
+  font-size: 25px;
+  color: var(--secondary-color);
+  margin: 0 10px;
+}
+
+footer #footer-text {
+  background: var(--black-ligth);
+  width: 100vw;
+  padding: 20px 0;
+}
+
+footer #footer-text p {
+  max-width: 82vw;
+  text-align: center;
+  margin: auto;
+}
+
+footer #footer-text a {
+  text-decoration: none;
 }
 
 /* Media queries */
@@ -236,6 +315,10 @@ body {
 @media screen and (max-width: 576px) {
   #contact-content div {
     border: none !important;
+  }
+
+  footer #footer-text p {
+    padding: 20px 0px 30px 0;
   }
 }
 
@@ -254,5 +337,15 @@ body {
   #emphasis-item h2 {
     font-size: 30px;
     margin: 20px 0;
+  }
+
+  #contact-content div #call {
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #contact-content div #call {
+    font-size: 30px;
   }
 }
