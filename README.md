@@ -10,7 +10,6 @@
 Você pode acessar o projeto clicando no link: [ExacTime](https://exactime.netlify.app/) 
 ## Rodando os arquivos do Projeto
 Você pode baixar este repositório clicando em Code e fazendo o Download Zip
-![image](https://github.com/joaovxsantos/ExactTime-Site/assets/97799540/c0e79b1a-2690-4404-a45b-eff276124325)
-Após isso, acesse o arquivo Index.html e o projeto irá abrir em seu navegador.
-* Acessando o Estilo
-  Para ter acesso ao arquivo de estilo, clique no arquivo Style.css. 
+![image](https://github.com/joaovxsantos/ExactTime-Site/assets/97799540/c0e79b1a-2690-4404-a45b-eff276124325)  
+Ao baixar o Arquivo, você irá se deparar com os seguintes arquivos:
+![image](https://github.com/joaovxsantos/ExactTime-Site/assets/97799540/267a1a29-d939-4ed7-b7d4-2ecee30d4b42)
