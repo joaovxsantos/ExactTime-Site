@@ -56,6 +56,15 @@ body {
   color: var(--white);
 }
 
+#navbar-one #form .btn {
+  border: 1px solid var(--bege);
+  color: var(--white);
+}
+
+#navbar-one #form .btn:hover {
+  background: var(--bege);
+}
+
 #navbar-one #form .form-control::placeholder {
   color: var(--white);
 }
