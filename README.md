@@ -21,10 +21,22 @@ Ao baixar o Arquivo, você irá se deparar com os seguintes arquivos:
 ### Images
 > Pasta com as imagens utilizadas no projeto.
 ### README.md
-> Arquivo de texto responsável pela documentação do projeto. Esse arquivo aqui no qual você está lendo.
-##Resultado
+> Arquivo de texto responsável pela documentação do projeto. Esse arquivo aqui no qual você está lendo.  
+## Resultado
 * Desktop  
-  https://github.com/joaovxsantos/ExactTime-Site/assets/97799540/b4b23b2d-f11c-483a-a352-ab6ea4f80f00
 
-* Mobile  
+
+https://github.com/joaovxsantos/ExactTime-Site/assets/97799540/9c2ba02c-fe12-41ff-a303-d6928f31e7bd
+
+
+
+
+
+
+
+
+
+
+
+* Mobile      
   ![mobile (1)](https://github.com/joaovxsantos/ExactTime-Site/assets/97799540/27151fb0-b2af-4b8a-b580-36214ea920ab)
